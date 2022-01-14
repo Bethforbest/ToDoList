@@ -32,7 +32,7 @@ function addCells(){
   itemList.forEach(function(item, i){
     elem += `<div class="cell">
     <input type="checkbox" id="elem_${i}"${item.checked ? "checked" : ''}>
-    <label for="elem_${i}">${item.todo}</label></div>`;
+    <label for="elem_${i}" style="font-family:Courier;font-size:16px;">${item.todo}</label></div>`;
     //class="${item.important ? "important" : ''}
     box.innerHTML = elem;
   })
