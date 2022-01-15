@@ -57,7 +57,11 @@ input[type="text"] {
     margin-bottom: 10px;
 }
 
-.checkbox_right {
+.isChecked {
+    text-decoration: line-through;
+}
+
+.btnright {
     position: absolute;
     right: 0;
 }
